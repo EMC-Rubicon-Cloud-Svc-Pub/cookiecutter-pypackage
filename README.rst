@@ -10,19 +10,21 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 * Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 
+EMC RCS forked original repo and adjusted a bit. For example, different github URL.
+
 Usage
 -----
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/EMC-Rubicon-Cloud-Svc-Pub/cookiecutter-pypackage.git
 
 Then:
 
 * Create a repo and put it there.
-* Add the repo to your Travis CI account.
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
-* Release your package the standard Python way. Here's a release checklist: https://gist.github.com/audreyr/5990987
+* Add the repo to your Travis CI account. (Skip this since RCS does not use Travis CI)
+* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook. (Skip this since RCS does not use ReadTheDocs yet)
+* Release your package the standard Python way. Here's a release checklist: https://gist.github.com/audreyr/5990987 (Unless you are working with an open source software like ECSMinion, skip this)
 
 Not Exactly What You Want?
 --------------------------
